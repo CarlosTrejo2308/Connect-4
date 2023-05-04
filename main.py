@@ -11,7 +11,7 @@ def main():
         print(game)
         print("-----------------")
         if game.check_win():
-            print("Player {} wins in a {} move!".format(game.last_piece, game.winCondition))
+            print("Player {} wins with a {} move!".format(game.last_piece, game.winCondition))
             break
 
 
